@@ -1,0 +1,168 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+
+.image {
+  display: block;
+  height: auto;
+  width: 25px;
+  padding-left: 5px;
+}
+
+.app-plano-de-fundo {
+  padding-top: 10px;
+  width: 710px;
+  height: 380px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.app-plano-de-fundo .formulario {
+  border-radius: 8px;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.app-plano-de-fundo .cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 0px 10px 0px 10px;
+  height: 42px; 
+}
+
+.lista-topicos {
+  width: 100%;
+}
+
+.conteudo-topico {
+  padding: 10px;
+  width: 100%;
+}
+
+.titulo-topico {
+  font-size: 16px;
+  color: #555f68;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.link-topico {
+  font-size: 10px;
+  color: #018dfc;
+  font-weight: 500;
+  font-family: sans-serif;
+  display: block;
+  width: 100%;
+  align-items: center;
+  padding: 5px 0px 5px 0px;
+}
+
+.link-topico .delete-topico {
+  float: right;
+  display: block;
+  height: auto;
+  width: 12px;
+  padding-left: 5px;
+}
+
+.tags-topico {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #dde1e4;
+  padding-bottom: 5px;
+}
+
+.tag {
+  background-color: #1e68c1;
+  font-family: sans-serif;
+  font-size: 10px;
+  color: white;
+  font-weight: 600;
+  width: fit-content;
+  padding: 3px;
+  margin-right: 10px;
+  margin-top: 5px;
+  border-radius: 2px;
+}
+
+.tag img {
+  height: auto;
+  width: 8px;
+  padding-left: 10px;
+}
+
+.custom-input {
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  height: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #bbbdbf;
+  color: #bbbdbf;
+}
+.custom-input::-webkit-input-placeholder {
+  color: #bbbdbf;
+  opacity: 1; 
+}
+.custom-input::-moz-placeholder {
+  color: #bbbdbf;
+  opacity: 1; 
+}
+
+.linha:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: 100%;
+}
+
+.col-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
